@@ -3,17 +3,47 @@
 /* selected colors for this project */
 /* nested syntax, how cool is that? */
 /* mixins */
+/* line 20, ../../../../../../../../../../../../../Users/chiaraschafer/Desktop/BAAA/Coding/Github:Gitkraken/2semForaar2020/sass-boilerplate/sass/style.scss */
+.box {
+  width: 99px;
+  height: 99px;
+  background-color: aquamarine;
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+/* line 27, ../../../../../../../../../../../../../Users/chiaraschafer/Desktop/BAAA/Coding/Github:Gitkraken/2semForaar2020/sass-boilerplate/sass/style.scss */
+.box2 {
+  width: 99px;
+  height: 99px;
+  background-color: cornflowerblue;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 /* scss samples */
-/* line 13, ../../../../../../../../../../../../../Users/per/Documents/html_root/localhost/2020-faa-2sem/2semForaar2020/sass-boilerplate/sass/style.scss */
+/* line 35, ../../../../../../../../../../../../../Users/chiaraschafer/Desktop/BAAA/Coding/Github:Gitkraken/2semForaar2020/sass-boilerplate/sass/style.scss */
 body {
-  background-color: #1cc867;
-  color: #00ff00;
+  color: blue;
 }
 
 /* nested syntax */
-/* line 20, ../../../../../../../../../../../../../Users/per/Documents/html_root/localhost/2020-faa-2sem/2semForaar2020/sass-boilerplate/sass/style.scss */
+/* line 41, ../../../../../../../../../../../../../Users/chiaraschafer/Desktop/BAAA/Coding/Github:Gitkraken/2semForaar2020/sass-boilerplate/sass/style.scss */
 main p {
-  color: #fff;
+  color: #0000ff;
+  background-color: #0000ff;
+}
+
+/* line 46, ../../../../../../../../../../../../../Users/chiaraschafer/Desktop/BAAA/Coding/Github:Gitkraken/2semForaar2020/sass-boilerplate/sass/style.scss */
+main a {
+  color: #ff0000;
+}
+
+/* line 50, ../../../../../../../../../../../../../Users/chiaraschafer/Desktop/BAAA/Coding/Github:Gitkraken/2semForaar2020/sass-boilerplate/sass/style.scss */
+main a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

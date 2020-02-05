@@ -4,21 +4,51 @@
 /* selected colors for this project */
 $green: #1cc867;
 $white: #fff;
+$blue: #0000ff;
+$cta: #ff0000;
+
 
 /* nested syntax, how cool is that? */
 
 /* mixins */ 
 
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+.box { 
+    width: 99px;
+    height: 99px;
+    background-color: aquamarine;
+    @include transform(rotate(30deg)); 
+}
+
+.box2 { 
+    width: 99px;
+    height: 99px;
+    background-color:cornflowerblue;
+    @include transform(rotate(45deg)); 
+}
+
 /* scss samples */
 body {
-    background-color: $green;
-    color: #00ff00;
+    color: blue;
 }
 
 /* nested syntax */
 main {
     p {
-        color: $white;
+        color: $blue;
+        background-color: $blue;
+    }
+    
+    a {
+        color: $cta;
+    }
+    
+    a {
+        text-decoration:none;
     }
 }
 
