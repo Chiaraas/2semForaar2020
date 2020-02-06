@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+	<meta charset="utf-8">
+	<title>How to use a date</title>
+	<meta name="author" content="Your Name">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="">
+	<link rel="icon" type="image/x-icon" href=""/>
+</head>
+
+<body>
+    <h1>Dates</h1>
+    <div id="result"></div>
+	<script>
+        
+    let now = new Date();
+    console.log ( now.getDay() );
+        
+    let week = [ 
+      "Sunday", 
+      "Monday", 
+      "Tuesday", 
+      "Wednesday", 
+      "Thursday", 
+      "Friday", 
+      "Saturday", 
+       ];
+        
+    console.log ( week [ now.getDay() ]); 
+        
+    let Month = [ 
+      "Jan", 
+      "Feb", 
+      "Mar", 
+      "Apr", 
+      "May", 
+      "Jun", 
+      "Jul",
+      "Aug",
+      "Sep",
+      "Okt",
+      "Nov",
+      "Dez", 
+       ];   
+        
+    console.log ( Month [ now.getMonth() ]);    
+        
+    result.innerHTML =  "Hello, today is" + week [ now.getDay() ] + Month  [ now.getMonth() ] ;
+        
+    let theMonths = [
+        
+    ]
+        
+    </script>
+</body>
+
+</html>
+
+
+
